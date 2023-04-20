@@ -39,7 +39,7 @@ The mean price change before the tweet was found to be 0.03%, whereas after the 
 
 ANOVA is a statistical method used to analyze the differences among means and to test the hypothesis of whether these differences are statistically significant. In this case, we are using it to examine whether there is a significant relationship between the sentiment of Elon Musk's tweets (measured by Text_Polarity) and the percentage change in the price of DOGE (close_pct_change). The summary of the ANOVA model provides information about the model fit, including the R-squared value, F-statistic, and p-value, which can help us to determine the strength of the relationship between the two variables.
     
- <p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/OLS_price_tweets.PNG?raw=true" alt="dogecoin" style="width: 100%;">
+ <p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/OLS_price_tweets.PNG?raw=true" alt="dogecoin" style="width: 50%;">
      
 The ANOVA test results with a dependent variable of close_pct_change and an independent variable of Text_Polarity show that the model has an R-squared value of 0.006, indicating that only 0.6% of the variance in close_pct_change is explained by Text_Polarity. The F-statistic of 118.9 suggests that the model is statistically significant, and the P-value of less than 0.05 for Text_Polarity indicates that it is a significant predictor of close_pct_change.
 
@@ -53,13 +53,13 @@ The chart reveals the presence of several volatility spikes that, in some cases,
 
 The mean volatility change was 0.4397%, while the mean volatility change after Elon Musk tweeted was 10.4296%. This suggests that Elon Musk's tweets had a considerable impact on the volatility of the market, but for a deeper analysis we need to apply a stadistic model.
      
- <p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/OLS_vol_tweets.PNG?raw=true" alt="dogecoin" style="width: 100%;">
+ <p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/OLS_vol_tweets.PNG?raw=true" alt="dogecoin" style="width: 50%;">
      
 The model resulted in an R-squared value of 0.005, which indicates that only 0.5% of the variability in the vol_pct_change can be explained by Text_Polarity. On the other hand, the coefficient of Text_Polarity is 10.0714, which indicates that a one-unit increase in Text_Polarity is associated with increases in vol_pct_change. Also, the F-statistic of 98.14 indicates that the model is significant, meaning that there is strong evidence to suggest that there is a relationship between Text_Polarity and vol_pct_change. In conclusion, the analysis shows that Elon Musk tweets related to DOGE have a statistically significant relationship with DOGE volatility. However, the R-squared value suggests that other factors might have a more significant impact on DOGE volatility.
 
 To go one step further, we can analyze the ANOVA table.The ANOVA table shows the degrees of freedom, the sum of squares, the mean square, the F-statistic, and the associated p-value for each of the variables in the model. The ANOVA table can be used to test the significance of the variables in the model and to compare the fit of different models.
      
- <p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/ANOVA_vol.PNG?raw=true" alt="dogecoin" style="width: 100%;">
+ <p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/ANOVA_vol.PNG?raw=true" alt="dogecoin" style="width: 50%;">
      
 As per the ANOVA table output, the p-value for the variable "Text_Polarity" is less than the significance level of 0.05, which indicates that there is a significant relationship between "Text_Polarity" and "vol_pct_change" in the model. It means that Elon Musk tweets related to DOGE have a statistically significant impact on the volatility of the cryptocurrency.
 
@@ -83,5 +83,5 @@ Options trading strategies such as the straddles, strangles, straps, and strips 
 
 **Strip**: A strip is a bearish options trading strategy that involves buying two put options and one call option at the same strike price and expiration date. This strategy is profitable if the underlying asset's price decreases significantly.
 
-      <p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/vol_opt_strategies.png?raw=true" alt="dogecoin" style="width: 100%;">
+<p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/vol_opt_strategies.png?raw=true" alt="dogecoin" style="width: 100%;">
      
