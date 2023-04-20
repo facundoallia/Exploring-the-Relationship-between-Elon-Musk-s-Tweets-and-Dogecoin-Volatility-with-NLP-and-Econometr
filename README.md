@@ -2,6 +2,9 @@
 
 <p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/doge.jpg?raw=true" alt="dogecoin" style="width: 100%;">
 
+To see the full code with graphics go to [Medium](https://medium.com/@facujallia/tweet-trade-profit-exploring-the-relationship-between-elon-musks-tweets-and-dogecoin-volatility-7da28ee9aead)
+
+
 In recent years, social media platforms have become a powerful tool for investors seeking to gain an edge in the financial markets. Among the most influential social media figures in the investment community is Elon Musk, the billionaire entrepreneur and CEO of companies such as SpaceX and Tesla. In particular, Musk's tweets about cryptocurrencies such as Dogecoin have been known to cause significant price movements in the market.
 
 The hypothesis of this study is that Elon Musk's tweets about Dogecoin can significantly impact the cryptocurrency's volatility and price movements. By analyzing Musk's tweet history and correlating it with market data on Dogecoin, we aim to identify trading opportunities that can benefit from the resulting increase in volatility.
