@@ -30,7 +30,8 @@ To further explore the relationship between DOGE/USDT and Elon Musk's tweets, we
 <p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/wordcloud_doge.png?raw=true" alt="dogecoin" style="width: 100%;">
     
 ### Price analysis
-
+We can visualize the percent change of DOGE after Elon Musk tweets in a Plotly chart:
+    
 <p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/doge_price_tweets.png?raw=true" alt="dogecoin" style="width: 100%;">
     
 As we can see in the graph above, the tweets led to important fluctuations in price, but not all the tweets produced positive impacts. In order to analyze the strong of the correlation, a first approximation is to compare the mean price change of DOGE/USDT with the mean price change after Elon Musk posts a DOGE-related tweet.
@@ -46,6 +47,7 @@ The ANOVA test results with a dependent variable of close_pct_change and an inde
 Overall, the model suggests that Text_Polarity may have some predictive power over close_pct_change, but the low R-squared value indicates that it is not a strong predictor. The high kurtosis value and potential for outliers suggest that the model may not be entirely reliable, and further analysis may be necessary before using it as a base for a trading strategy.
      
  ### Volatility analysis
+ We can visualize the percent change of DOGE volatility after Elon Musk tweets in a Plotly chart:
 
  <p align="center"><img src="https://github.com/facundoallia/Exploring-the-Relationship-between-Elon-Musk-s-Tweets-and-Dogecoin-Volatility-with-NLP-and-Econometr/blob/main/images/doge_vol_tweets.PNG?raw=true" alt="dogecoin" style="width: 100%;">
      
